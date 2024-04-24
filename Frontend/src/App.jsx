@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Login from './component/Login/Login';
 import Signup from './component/Signup/Signup';
 import Dashboard from './component/Dashboard/Dashboard';
-import SubCategory from './Layout/SubCategory';
+// import SubCategory from './Layout/SubCategory';
 function App() {
   
 
@@ -19,7 +19,7 @@ function App() {
           <Route exact path ='/' element={<Login/>}/>
           <Route path="/Signup" element={<Signup/>} />
           <Route path="/Dashboard" element={<Dashboard/>} />
-          <Route path='/Subcategory' element={<SubCategory/>}/>
+          {/* <Route path='/Subcategory' element={<SubCategory/>}/> */}
         </Routes>
       </div> 
       </Router>  
